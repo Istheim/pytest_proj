@@ -20,7 +20,6 @@ def get(array, index, default=None):
     return array[index] if index >= 0 else array[len(array) + index]
 
 
-
 def my_slice(coll, start=0, end=None):
     """
     Возвращает новый массив, содержащий копию части исходного массива.
